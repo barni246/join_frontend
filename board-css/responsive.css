@@ -1,0 +1,551 @@
+@media screen and (max-width: 1350px) {
+ .tasks-board {
+        flex-wrap: wrap;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
+@media screen and (max-width: 1250px) {
+   
+
+    .headline {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+
+    .nav-container {
+        font-size: 18px;
+    }
+
+    .add-task-btn-board {
+        display: none;
+    }
+
+    .plusButton {
+        display: none;
+    }
+
+    .plusBtn-Mobile {
+        display: block;
+      }
+
+    .title {
+       justify-content:space-between;
+        
+    }
+
+    .title-1 {
+         
+         
+    }
+
+    .main-container {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    .main-container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+   
+    .tasks-board {
+    
+    }
+
+    .headline {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+  
+}
+
+@media screen and (max-width: 950px) {
+
+    
+    .nav-container {
+        font-size: 16px;
+    }
+    .headline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .task-area {
+        padding-bottom: 150px;
+
+    }
+
+    .title-of-board {
+        padding-top: 25px;
+    }
+
+    .search-menu-mobile {
+        display: flex;
+    }
+
+    .add-task-btn-board {
+        display: none;
+    }
+
+    .tasks-board {
+        display: flex;
+        justify-content: center;
+         padding-top: 25px;
+    }
+
+    .headline-right-side {
+
+        margin-top: 25px;
+        align-items: center;
+    }
+
+}
+
+
+@media screen and (max-width: 920px) {
+
+    .tasks-board {
+      
+    }
+
+    .addTaskBtn-Mobile {
+        display: block !important;
+        margin-top: 20px;
+       
+       
+    }
+
+    .addTaskBtn-Mobile-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .drag-drop-containers {
+        min-widt: 100% !important;
+    }
+
+
+    .title {
+        margin-bottom: 55px;
+        margin-top: 80px;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .mobile-nav-container {
+        display: block !important;
+    }
+    
+    .mobile-nav-container img {
+       margin-right: 25px;
+       margin-top: 3px;
+       cursor: pointer;
+       width: 32px;
+       height: 32px;
+       transition: all 125ms ease-in-out;
+    }
+    
+    .mobile-nav-container img:hover {
+        scale: 1.2;
+        transition: all 125ms ease-in-out;
+    }
+
+    
+
+    .tasks-board {
+     display: flex;
+     flex-wrap: wrap;
+    }
+
+    .main-container {
+        grid-column: 1/11;
+        padding-bottom: 80px;
+    }
+
+    .search-menu-back-button {
+        position: fixed;
+        bottom: 0px;
+        height: 80px;
+        width: 100%;
+        z-index: 100000;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .tasks-board {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    .task {
+        width: 280px !important;
+    }
+
+    .title {
+        width: 280px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+    .addTaskBtn-Mobile img {
+        width: 25px;
+        height: 20px;
+    }
+
+    .title-of-board {
+        font-size: 50px;
+    }
+
+    .main-container {
+        padding-right: 0;
+        padding-left: 0; 
+        background-color: #f6f7f8;
+    } 
+
+    .content-task-popup {
+        height: 100%;
+        width: 100%;
+        scrollbar-width: none;
+        border-top: 0.5px solid lightgray;
+        border-radius: unset;
+        padding-top: 10%;
+        background-color: #f6f7f8;
+    }
+
+
+    /* Mindenhonnan eltüntek a scrollbar-ok */
+    ::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .layover-task-popup {
+        background-color: transparent;
+        top: 75px;
+        bottom: 61px;
+
+    }
+
+    .ok-button {
+        right: 60px;
+    }
+
+    .exit-edit-container {
+        top: 25px;
+        right: 55px;
+    }
+
+    .exit-task-popup {
+        top: 35px;
+        right: 28px;
+    }
+
+    .trash-popup {
+        box-shadow: unset;
+    }
+
+    .categoryTask {
+        display: flex;
+        justify-content: center;
+        max-width: 150px;
+        /* word-wrap: break-word; */
+        overflow-wrap: break-word;
+        padding: 5px 15px;
+        color: #ffffff;
+        border-radius: 8px;
+        font-size: 17px;
+        box-sizing: border-box;
+    }
+
+    .set-title {
+        font-size: 20px;
+    }
+
+    .set-description {
+        color: gray !important;
+    }
+
+    .assigned-to {
+        height: 200px;
+        overflow: auto;
+    }
+
+    .date-input {
+        height: 25px;
+    }
+
+    .title-input {
+        height: 30px;
+    }
+
+    .edit-container {
+        border-top: 0.5px solid lightgray;
+        padding-top: 100px;
+        border-radius: unset;
+        width: 100%;
+        background-color: #f6f7f8;
+    }
+
+    .edit-container-wrapper {
+        height: 100%;
+        width: 100%;
+        background-color: #f6f7f8;
+        border-radius: 0;
+    }
+
+    .prio-container {
+        width: 100%;
+    }
+
+  
+    
+     .task {
+        width: 200px;
+     }
+
+     .task-area {
+        padding-bottom: 150px;
+        min-height:270px;
+    }
+
+}
+
+@media screen and  (max-width: 450px) {
+    .task {
+        margin-top: 15px;
+      }
+
+      .header {
+          height: 80px !important;
+      }
+
+      .title {
+          margin-top: 0;
+          margin-bottom: 0;
+      }
+    .prio-container {
+        scale: 0.85 !important;
+        width: 118%;
+        margin-left: -35px;
+    }
+    .tasks-board {
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+}
+
+    .edit-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .exit-edit-container {
+        top: 25px;
+        right: 38px;
+    }
+
+    .ok-button {
+        right: 38px;
+    }
+
+    .task-area {
+        padding-bottom: 0px;
+        min-height:250px;
+    }
+
+    
+ 
+    
+
+
+}
+
+@media screen and  (max-width: 450px),
+screen and (max-height:667px)  {
+
+
+
+
+    .task {
+        margin-top: 15px;
+      }
+
+      .header {
+          height: 80px !important;
+      }
+
+      .title {
+          margin-top: 0;
+          margin-bottom: 0;
+      }
+    .prio-container {
+        scale: 0.85 !important;
+        width: 118%;
+        margin-left: -35px;
+    }
+    .tasks-board {
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+}
+
+    .edit-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .exit-edit-container {
+        top: 25px;
+        right: 38px;
+    }
+
+    .ok-button {
+        right: 38px;
+    }
+
+    .task-area {
+        padding-bottom: 0px;
+    }
+
+    
+
+    
+
+}
+
+
+@media screen and (max-width: 350px) {
+    .edit-container-wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .edit-container {
+        padding-left: 0px;
+        padding-right: 0px;
+        border: unset;
+    }
+
+    .prio-container {
+        scale: 0.60;
+        margin-bottom: 10px;
+        margin-left: -25px;
+    }
+
+    .exit-edit-container {
+        top: 50px;
+        right: 0px;
+    }
+
+    .exit-task-popup {
+        top: 25px;
+        right: 35px;
+    }
+
+    .ok-button {
+        right: 45px;
+    }
+
+    .edit-button {
+        right: 35px;
+    }
+
+     .tasks-board {
+        padding: 0 0;
+    }
+
+    .edit-container-avatars {
+        margin-left: 0;
+    }
+
+    
+
+}
+
+
+ @media screen and (max-width:375px),
+       screen and (max-height:667px)  {
+
+        .addTaskBtn-Mobile-container {
+            width: 90%;
+        }
+        .task {
+          margin-top: 15px;
+        }
+
+        .header {
+            height: 80px !important;
+        }
+
+        .title {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .edit-container {
+            padding-top: 30px;
+            box-sizing: border-box;
+        }
+
+        .subtasks-container {
+            margin-bottom: 0;
+        }
+
+        .trash img {
+            top: 22px;
+            right: 60px;
+            width: 55px;
+            height: 50px;
+        }
+
+        .exit-edit-container {
+            right: 10px;
+            top: 8px;
+        }
+
+        .title-input {
+            margin-bottom: 5px;
+        }
+
+        .text-area-description {
+            margin-bottom: 5px;
+        }
+
+        .date-input {
+            margin-bottom: 5px; 
+        }
+
+        .prio-container {
+            margin-left: -28px;
+        }
+
+        .edit-container-avatars {
+            margin-left: 40px;
+        }
+
+
+       
+      
+} 
